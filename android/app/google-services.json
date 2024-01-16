@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "572502871178",
+    "project_id": "usercredential-9876b",
+    "storage_bucket": "usercredential-9876b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572502871178:android:0e062d5e0bcdbf5dd43173",
+        "android_client_info": {
+          "package_name": "com.example.usercredential"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDemoKAGUbT3BTdad9bn0zHoWY6gXLX29I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
