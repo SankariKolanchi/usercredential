@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+const userConstant = 'USER_DATA';
+
 const kSendButtonTextStyle = TextStyle(
   color: Colors.lightBlueAccent,
   fontWeight: FontWeight.bold,
@@ -18,13 +20,12 @@ const kMessageContainerDecoration = BoxDecoration(
   ),
 );
 
-void toastMsg(
-  BuildContext context,
-  String msg,
-) {
+void toastMsg(BuildContext context, String msg) {
   final snackBar = SnackBar(
-    content: Text(msg),
-  );
+      content: Text(msg),
+      padding: const EdgeInsets.all(15),
+      elevation: 2,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)));
 
   ScaffoldMessenger.of(context).showSnackBar(snackBar);
 }

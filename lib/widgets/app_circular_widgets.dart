@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 
 class AppCircularWidget extends StatelessWidget {
-  const AppCircularWidget({
-    super.key,
-  });
-
+  const AppCircularWidget({super.key, this.color});
+  final Color? color;
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.symmetric(vertical: 16),
+    return SizedBox(
+      height: 40,
       child: Center(
-        child: CircularProgressIndicator(),
+        child: CircularProgressIndicator(
+          color: color,
+          strokeWidth: 2.0,
+        ),
       ),
     );
   }
