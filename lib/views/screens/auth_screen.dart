@@ -51,7 +51,7 @@ class AuthScreen extends StatelessWidget {
               onPressed: () async {
                 await auth.signInWithGoogle(context);
               },
-              child: const Text('Sign In with Google'),
+              child: const Text('Sign In With Google'),
             ),
           ],
         ),
